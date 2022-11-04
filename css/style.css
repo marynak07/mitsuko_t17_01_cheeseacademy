@@ -1,0 +1,393 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: #333333;
+    font-size: 1.6rem;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+.site-title{
+    font-size: 2.4rem;
+    font-weight: bold;    
+}
+
+.profile-wrapper{
+    width: 560px;
+    margin: auto;
+}
+
+.profile-wrapper2{
+    margin-bottom: 60px;
+}
+
+.profile-wrapper2{
+    margin: auto;
+}
+
+p{
+    text-align: center;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+}
+
+/* header */
+.wrapper{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.head-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+}
+
+.header{
+    background-color: rgb(226, 117, 15);
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 0 0 0 50px;
+    padding-right: 30px;
+}
+
+.nav-item>a{
+    color: rgb(4, 4, 4);
+}
+
+/* About */
+.profile__title{
+    width: 560px;
+    margin: 0 0 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(226, 107, 17);
+    margin: 0 0 30px;
+}
+
+.width{
+    width: 560px;
+}
+
+/* head image margin */
+.head__image{
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 60px;
+}
+
+/* link */
+.btn-top{
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+
+
+/* text margin setting */
+
+.text-space24{
+    margin: 0 0 24px;
+}
+.text-space30{
+    margin: 0 0 30px;
+}
+.text-space40{
+    margin: 0 0 40px;
+}
+.text-space60{
+    margin: 0 0 60px;
+}
+.text-space70{
+    margin: 0 0 70px;
+}
+.text-space80{
+    margin: 0 0 80px;
+}
+.image__single{
+    margin: 0 0 40px; 
+}
+/* card image content */
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #eee;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 60px;
+}
+.card__content{
+    padding: 8px;
+}
+
+.card__image2 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 0 30px;
+}
+.content__place{
+    text-align: justify;
+}
+
+.card2{
+    width: 500px;
+    height: 350px;
+    background-color: #eee;
+}
+.card3{
+    width: 200px;
+    height: 150px;
+}
+
+/* course image */
+.card-container{
+    display:flex;
+    max-width: 1200px;
+    height: auto;
+}
+.card__image2{
+    max-width: 600px;
+    height: auto;
+}
+.card-text2{
+    width:480px;
+    margin: auto;
+}
+
+.map {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 56.25%;
+    margin-bottom: 60px;
+}
+.map iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* head image */
+
+.card__image{
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+.card__image p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    width: 960px;
+}
+.red{
+    color: red;
+}
+
+/* 演習 */
+.card{
+    width: 288px;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,.2)
+  }  
+
+/*course */
+
+.card-container55{
+    display: center;
+  }
+
+.card-img55{
+    width: 100%;
+    height: 300px;
+}
+
+.card-text55-r{
+    display: flex;
+    width: 430px;
+    text-align: right;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.card-text55-l{
+    display: flex;
+    width: 430px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.title55-l{
+    font-size: 20px;
+    font-style: bold;
+    margin-left: 50px;
+    margin-top: 120px;
+    text-align: left;
+}
+
+.title55-r{
+    font-size: 20px;
+    font-style: bold;
+    margin-right: 50px;
+    margin-top: 120px;
+    text-align: right;
+}
+
+.box{
+    width: 500px;
+    height: 300px;
+}
+.box2{
+    width: 480px;
+    height: 336px;
+    margin: auto;
+}
+
+.course1 {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.margin-top{
+    margin-top: 60px;
+}
+
+.test66{
+    display: flex;
+}
+
+.item-loc{
+    width: 50%;
+}
+
+/* address */
+.text-rule1{
+    padding-bottom: 30px;
+}
+.text-rule2{
+    display: flex;
+    justify-content: center;
+}
+.text-left-p{
+    padding-left: 20px;
+}
+
+/* contact area */
+.form-wrapper{
+    width: 640px;
+    margin: auto;
+}
+/* ２コラムにする　折り返しの方法 flex-wrap */
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-title{
+    width: 200px;
+    margin: 0 40px 0 0;
+}
+.form-item{
+    width: 400px;
+    margin: 0 0 30px;
+}
+.form-item2{
+    width: 400px;
+    margin: 0 0 30px;
+    line-height: 30px;
+}
+.center-btn{
+    text-align: center;
+    margin-bottom: 140px;
+}
+button {
+    /* ブラウザ特有のスタイルを無効に */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  
+    /* 整える */
+    margin: 1em 0; /* 前後の隙間 */
+    padding: 0.6em 2em; /* 塗りの余白 */
+    font-size: 1em; /* フォントサイズ */
+    background-color: #ecc528; /* 背景色 */
+    color: #FFF; /* テキストカラー */
+    cursor: pointer; /* カーソルを指マークに */
+    border-radius: 3px; /* 角の丸み */
+    border: 0; /* 枠線を消す */
+    transition: 0.3s; /* ホバーの変化を滑らかに */
+  }
+  
+  /* ホバー時（カーソルをのせた時）の見た目 */
+  button:hover {
+    background-color: #da6206; /* 背景色 */
+  }
+
+footer{
+    max-width: 1140px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #707070;
+    color: #eee;
+    text-align: center;
+}
+
+.footer1{
+    text-align: center;
+}
+
+.form-parts{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.6rem;
+    border: solid 1px #c9c9c9;
+    padding: 8px;
+}
+
+@media screen and (max-width: 576px){
+    /*SP 時の CSS をここに記入 */
+   
+ }
